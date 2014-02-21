@@ -10,7 +10,7 @@ run ./altmetricsfacebook.sh FILE
 
 Output is outputfacebook.csv is ready to paste into Excel
 
-Authors
+== Authors ==
 
 Tiago Murakami
 
