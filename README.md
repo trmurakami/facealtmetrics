@@ -5,8 +5,9 @@ Simple script that generate a csv file from a list of URLs with count of faceboo
 
 ==  How to use ==
 
-Create a txt file with a list of URLs to query facebook API
-run ./altmetricsfacebook.sh FILE
+1. Create a txt file with a list of URLs to query facebook API
+
+2. run ./altmetricsfacebook.sh FILE
 
 Output is outputfacebook.csv is ready to paste into Excel
 
