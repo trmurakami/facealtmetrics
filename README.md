@@ -9,7 +9,7 @@ Simple script that generate a csv file from a list of URLs with count of faceboo
 
 2. run ./altmetricsfacebook.sh FILE
 
-Output is outputfacebook.csv is ready to paste into Excel
+Output is outputfacebook.csv is ready to paste data into Excel
 
 == Version ==
 
