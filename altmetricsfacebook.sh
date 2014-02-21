@@ -4,4 +4,4 @@ linkfim="%27"
 
 echo -e "url\tclick_count\tshare_count\tlike_count\tcomment_count\ttotal_count\tcommentsbox_count\tnormalized_url" > outputfacebook.csv
 
-cat $1 | while read lin ; do curl $link$lin$linkfim |  jq -r '.data[] | .url,.click_count,.share_count,.like_count,.comment_count,.total_count,.commentsbox_count,.normalized_url' | tr "\n" "\t" | cat - newline.txt >> outputfacebook.csv ; done;
+cat $1 | while read lin ; do curl $link$lin$linkfim |  jq -r '.data[] | .url,.click_count,.share_count,.like_count,.comment_count,.total_count,.commentsbox_count,.normalized_url' | tr "\n" "\t" | cat - <(echo) >> outputfacebook.csv ; done;
