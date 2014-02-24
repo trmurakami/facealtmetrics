@@ -15,6 +15,10 @@ Output is outputfacebook.csv is ready to paste data into Excel
 
 0.1 - Initial released
 
+== Dependencies ==
+
+jq - http://stedolan.github.io/jq/
+
 == Authors ==
 
 Tiago Murakami
